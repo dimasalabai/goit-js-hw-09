@@ -4,7 +4,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 // Додатковий імпорт стилів
 import 'flatpickr/dist/flatpickr.min.css';
 
-refs = {
+const refs = {
   input: document.querySelector('input'),
   startBtn: document.querySelector('[data-start]'),
   daysTimer: document.querySelector('span[data-days]'),
